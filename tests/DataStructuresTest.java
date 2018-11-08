@@ -13,7 +13,7 @@ public class DataStructuresTest {
     public void setUp() throws Exception {
         dataStructures = new DataStructures() {
             @Override
-            public char[] stringToCharArray(String word) {
+            public int stringToCharArray(String word) {
                 return new char[0];
             }
 

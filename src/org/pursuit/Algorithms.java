@@ -11,16 +11,10 @@ public class Algorithms implements DataStructures {
     //
 //            * `stringToCharArray`, which should take every `char` in the `String` parameter passed into the method,
 //    add it to a `char[]` array, then return that `char[]` array object
-//* `multiplicationTableList`, which should add every number from 1 to 10, multiplied
-//    by the parameter passed into the method, to an `ArrayList` object with a parameterized type
-//    of `Integer`, then return that `ArrayList<Integer>` object
-//* `wordLength`, which should take every `String` in the `String[]` array parameter passed into the
-//    method, and put it in a `HashMap` object with with parameterized key/values types of `String` and
-//    `Integer` respectively, with the `String` as a key, and the `String`'s size as a value, then return that `HashMap<String, Integer>` object
-//
+
     @Override
     public char[] stringToCharArray(String word) {
-        char[] myArray = new[]
+        char[] myArray =
 
         for (int i = 0; i < word.charAt(i); i++) {
 
@@ -56,15 +50,18 @@ public class Algorithms implements DataStructures {
     @Override
     public HashMap<String, Integer> wordLength(String[] wordArray) {
 
+//        for(int i = 0; i < wordArray.length(); i++)
+
+
         HashMap<String, Integer> hashMap = new HashMap<>();
 
-        for (String s : hashMap
+        for (String s : wordArray
         ) {
 
         }
 
 
-        return;
+        return hashMap;
 
     }
 
